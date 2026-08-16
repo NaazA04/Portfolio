@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naaz | Designer & Developer Portfolio</title>
+  <meta name="description" content="Personal portfolio of Naaz, a BTech Computer Science student, designer, and developer. I DESIGN. I BUILD. I QUESTION EVERYTHING.">
+  <meta name="keywords" content="Naaz, Portfolio, UI/UX Designer, Frontend Developer, Computer Science, Mumbai, Web Development, React, Figma">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+
+  <!-- Requested Google Fonts: Bebas Neue, Caveat, Baloo 2, Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Bebas+Neue&family=Caveat:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <nav class="nav-left" aria-label="Main Navigation">
+        <a href="#work" class="nav-link">WORK</a>
+        <a href="#about" class="nav-link">ABOUT</a>
+        <a href="#experiments" class="nav-link">EXPERIMENTS</a>
+        <a href="#skills" class="nav-link">SKILLS</a>
+        <a href="#receipts" class="nav-link">CREDENTIALS</a>
+      </nav>
+
+      <a href="#hero" class="nav-logo" aria-label="Naaz Home">Naaz</a>
+
+      <div class="nav-right">
+        <a href="#receipts" class="nav-link resume-link">RESUME</a>
+        <a href="#contact" class="btn btn-primary nav-cta">LET'S TALK <span class="arrow">↗</span></a>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <div class="mobile-drawer-inner">
+        <a href="#work" class="mobile-nav-link">WORK</a>
+        <a href="#about" class="mobile-nav-link">ABOUT</a>
+        <a href="#experiments" class="mobile-nav-link">EXPERIMENTS</a>
+        <a href="#skills" class="mobile-nav-link">SKILLS</a>
+        <a href="#receipts" class="mobile-nav-link">CREDENTIALS</a>
+        <div class="mobile-drawer-cta">
+          <a href="#contact" class="btn btn-primary btn-full">LET'S TALK ↗</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO SECTION (PRECISE FIGMA CONNECTOR ALIGNMENT) ================= -->
+    <section class="hero-section" id="hero">
+      <div class="hero-container">
+        
+        <!-- Hero Left Area: Big Typography -->
+        <div class="hero-left-column">
+          <div class="hero-headline-block">
+            <div class="headline-line-bebas">I DESIGN.</div>
+            <div class="headline-line-bebas">I BUILD.</div>
+            
+            <div class="headline-question-wrap">
+              <span class="question-vertical-bar"></span>
+              <div class="question-cursive-text">
+                <span class="word-question">QUESTION</span>
+                <span class="word-everything">EVERYTHING</span>
+                
+                <!-- Underline Strokes -->
+                <svg class="question-double-underline" viewBox="0 0 280 18" fill="none">
+                  <path d="M5 6 Q 140 14 275 8" stroke="#6D241F" stroke-width="2.6" stroke-linecap="round"/>
+                  <path d="M15 13 Q 145 19 265 14" stroke="#6D241F" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Left: Think Card & Note -->
+          <div class="hero-think-container">
+            <div class="handwritten-think-note">
+              <span class="caveat-text">I think before<br>I design.</span>
+              <!-- Curved arrow with loop pointing to card -->
+              <svg class="think-arrow-svg" viewBox="0 0 60 40" fill="none">
+                <path d="M10 15 C 25 35, 42 38, 48 24 C 52 14, 42 16, 44 26 L 56 22" stroke="#4A201A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+
+            <!-- Card 4: THINK (Yellow/Amber Card) -->
+            <div class="hero-badge-card card-think" data-tilt>
+              <div class="badge-card-icon think-icon-bg">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#B45309" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v2 M12 20v2 M4.93 4.93l1.41 1.41 M17.66 17.66l1.41 1.41 M2 12h2 M20 12h2 M6.34 17.66l-1.41 1.41 M19.07 4.93l-1.41 1.41"/>
+                  <circle cx="12" cy="12" r="4"/>
+                </svg>
+              </div>
+              <div class="badge-card-body">
+                <h3 class="badge-card-title think-title-color">THINK</h3>
+                <div class="badge-card-tags think-tags-color">
+                  <span>PROBLEM SOLVING</span>
+                  <span>USER THINKING</span>
+                </div>
+              </div>
+              <div class="badge-card-arrow think-arrow-bg">
+                <span>&rarr;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Center & Right Area: Avatar, 3 Cards & Dashed Lines -->
+        <div class="hero-right-column">
+          
+          <!-- Avatar Center with Large Oval Backdrop #F8F0E4 -->
+          <div class="avatar-center-wrapper">
+            <!-- Radiating Doodles on Top of Head -->
+            <div class="head-burst-doodles">
+              <svg viewBox="0 0 50 35" width="45" height="30" fill="none">
+                <path d="M8 24 L2 12 M24 20 L24 4 M40 22 L48 8" stroke="#4A201A" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+
+            <!-- Soft Oval Background with exact color #F8F0E4 -->
+            <div class="avatar-oval-bg"></div>
+
+            <!-- Transparent Avatar Image (No white background) -->
+            <div class="avatar-crop-container">
+              <img src="assets/hero_avatar.png" alt="Naaz - Designer and Developer" class="hero-avatar-portrait" />
+            </div>
+          </div>
+
+          <!-- Connecting Dotted Curves to Pink and Green/Teal boxes (Properly Terminated) -->
+          <svg class="connecting-dashed-lines" viewBox="0 0 700 520" fill="none">
+            <!-- Dotted line from shoulder terminating precisely at the left border of Pink (Design) Box -->
+            <path d="M 290 145 C 340 95, 385 60, 428 50" stroke="#718096" stroke-width="2" stroke-dasharray="5 5" stroke-linecap="round"/>
+            
+            <!-- Dotted line from arm terminating precisely at the left border of Green/Teal (Curious) Box -->
+            <path d="M 290 435 C 340 475, 385 470, 428 450" stroke="#718096" stroke-width="2" stroke-dasharray="5 5" stroke-linecap="round"/>
+          </svg>
+
+          <!-- Floating Thought Cards Stack Right -->
+          <div class="floating-cards-column">
+            
+            <!-- Card 1: DESIGN (Pink Card Shifted up cleanly to top dotted line) -->
+            <div class="card-item-row row-design">
+              <div class="hero-badge-card card-design" data-tilt>
+                <div class="badge-card-icon design-icon-bg">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#9E2A44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 19l7-7 3 3-7 7-3-3z M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z M2 2l7.586 7.586"/>
+                  </svg>
+                </div>
+                <div class="badge-card-body">
+                  <h3 class="badge-card-title design-title-color">DESIGN</h3>
+                  <div class="badge-card-tags design-tags-color">
+                    <span>UI/UX DESIGN</span>
+                    <span>BRANDING</span>
+                  </div>
+                </div>
+                <div class="badge-card-arrow design-arrow-bg">
+                  <span>&rarr;</span>
+                </div>
+              </div>
+
+              <!-- Note next to Design -->
+              <div class="card-annotation-side">
+                <span class="caveat-text">I love creating<br>interfaces that<br>make sense.</span>
+                <div class="note-sub-doodle">
+                  <svg viewBox="0 0 30 20" width="22" height="14" fill="none">
+                    <path d="M5 8 Q 15 16 25 10" stroke="#4A201A" stroke-width="1.8" stroke-linecap="round"/>
+                  </svg>
+                  <span class="heart-doodle">♡</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2: BUILD (Blue Card Centered in middle & Tilted) -->
+            <div class="card-item-row row-build">
+              <div class="hero-badge-card card-build" data-tilt>
+                <div class="badge-card-icon build-icon-bg">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#1E40AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="16 18 22 12 16 6"/>
+                    <polyline points="8 6 2 12 8 18"/>
+                  </svg>
+                </div>
+                <div class="badge-card-body">
+                  <h3 class="badge-card-title build-title-color">BUILD</h3>
+                  <div class="badge-card-tags build-tags-color">
+                    <span>FRONTEND</span>
+                    <span>DEVELOPMENT</span>
+                  </div>
+                </div>
+                <div class="badge-card-arrow build-arrow-bg">
+                  <span>&rarr;</span>
+                </div>
+              </div>
+
+              <!-- Note next to Build -->
+              <div class="card-annotation-side">
+                <span class="caveat-text">Clean code.<br>Smooth magic.<br>That's the vibe.</span>
+                <div class="note-sub-doodle">
+                  <svg viewBox="0 0 35 25" width="26" height="18" fill="none">
+                    <path d="M5 10 C 15 20, 25 22, 30 14 C 32 8, 24 10, 26 18" stroke="#4A201A" stroke-width="1.8" stroke-linecap="round"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3: CURIOUS (Teal/Green Card at Bottom) -->
+            <div class="card-item-row row-curious">
+              <div class="hero-badge-card card-curious" data-tilt>
+                <div class="badge-card-icon curious-icon-bg">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#0F766E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 18h6 M10 22h4 M12 2a7 7 0 0 0-7 7c0 2.5 1.5 4.5 3 6v1h8v-1c1.5-1.5 3-3.5 3-6a7 7 0 0 0-7-7z"/>
+                  </svg>
+                </div>
+                <div class="badge-card-body">
+                  <h3 class="badge-card-title curious-title-color">CURIOUS</h3>
+                  <div class="badge-card-tags curious-tags-color">
+                    <span>ALWAYS LEARNING</span>
+                    <span>ALWAYS EXPLORING</span>
+                  </div>
+                </div>
+                <div class="badge-card-arrow curious-arrow-bg">
+                  <span>&rarr;</span>
+                </div>
+              </div>
+
+              <!-- Note next to Curious -->
+              <div class="card-annotation-side">
+                <span class="caveat-text">New ideas<br>excite me.</span>
+                <div class="note-sub-doodle">
+                  <svg viewBox="0 0 30 20" width="22" height="14" fill="none">
+                    <path d="M5 5 Q 15 18 25 10" stroke="#4A201A" stroke-width="1.8" stroke-linecap="round"/>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= SKILLS / TECH SKILLS MARQUEE SECTION (MAROON WAVE) ================= -->
+    <section class="skills-section" id="skills">
+      <!-- Top Organic Wave Cutout -->
+      <div class="skills-wave-top">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" fill="none">
+          <path d="M 0,0 L 1440,0 L 1440,30 C 1300,75 1180,10 1020,30 C 860,50 760,80 620,20 C 480,-5 360,70 200,40 C 100,20 40,60 0,35 Z" fill="#FFFBF3"/>
+        </svg>
+      </div>
+
+      <div class="skills-container">
+
+        <!-- ── Header ── -->
+        <div class="skills-header">
+          
+          <!-- Top Left Pill + Arrow Doodle -->
+          <div class="skills-top-left-wrap">
+            <div class="skills-pill-label">WHAT I WORK WITH <span class="pill-dot">●</span></div>
+            <svg class="skills-curved-arrow-doodle" viewBox="0 0 50 40" width="45" height="35" fill="none">
+              <path d="M 8 6 Q 30 6 36 28" stroke="#EAC9D0" stroke-width="1.6" stroke-linecap="round"/>
+              <path d="M 28 22 L 36 28 L 40 18" stroke="#EAC9D0" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <!-- Center Title Area -->
+          <div class="skills-title-center">
+            <div class="skills-title-wrapper">
+              <h2 class="skills-main-title">TECH SKILLS</h2>
+              <div class="skills-title-rays">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="skills-highlight-stroke"></div>
+            </div>
+
+            <p class="skills-subtitle">
+              Things I know, things I'm learning. <span class="pink-heart">&#9825;</span>
+            </p>
+
+            <!-- Cute Coffee Cup Doodle -->
+            <div class="skills-coffee-doodle">
+              <svg viewBox="0 0 40 32" width="36" height="28" fill="none">
+                <!-- Steam -->
+                <path d="M 14 6 Q 16 3 14 0" stroke="#EAC9D0" stroke-width="1.4" stroke-linecap="round"/>
+                <path d="M 20 6 Q 22 3 20 0" stroke="#EAC9D0" stroke-width="1.4" stroke-linecap="round"/>
+                <path d="M 26 6 Q 28 3 26 0" stroke="#EAC9D0" stroke-width="1.4" stroke-linecap="round"/>
+                <!-- Cup Body -->
+                <path d="M 8 9 L 32 9 L 29 24 C 28.5 27 26 29 20 29 C 14 29 11.5 27 11 24 Z" fill="#FFFBF3" stroke="#EAC9D0" stroke-width="1.8" stroke-linejoin="round"/>
+                <!-- Coffee liquid -->
+                <ellipse cx="20" cy="12" rx="9" ry="2" fill="#6D241F"/>
+                <!-- Handle -->
+                <path d="M 31 12 C 36 12 36 20 30 20" stroke="#EAC9D0" stroke-width="1.8" stroke-linecap="round"/>
+                <!-- Saucer line -->
+                <path d="M 6 29 L 34 29" stroke="#EAC9D0" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ── ROW 01 (Moves Left) ── -->
+        <div class="skills-row-outer">
+          <div class="skills-track-container">
+            <div class="skills-marquee marquee-ltr">
+              <!-- Set 1 -->
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML" class="skill-logo"><span>HTML</span></div>
+              <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="skill-logo"><span>CSS</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript" class="skill-logo"><span>JavaScript</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/react/61DAFB" alt="React" class="skill-logo"><span>React</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/nodedotjs/339933" alt="Node.js" class="skill-logo"><span>Node.js</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="Tailwind" class="skill-logo"><span>Tailwind</span></div>
+
+              <!-- Set 2 (seamless repeat) -->
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML" class="skill-logo"><span>HTML</span></div>
+              <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="skill-logo"><span>CSS</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript" class="skill-logo"><span>JavaScript</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/react/61DAFB" alt="React" class="skill-logo"><span>React</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/nodedotjs/339933" alt="Node.js" class="skill-logo"><span>Node.js</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="Tailwind" class="skill-logo"><span>Tailwind</span></div>
+
+              <!-- Set 3 -->
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML" class="skill-logo"><span>HTML</span></div>
+              <div class="skill-card"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="skill-logo"><span>CSS</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript" class="skill-logo"><span>JavaScript</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/react/61DAFB" alt="React" class="skill-logo"><span>React</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/nodedotjs/339933" alt="Node.js" class="skill-logo"><span>Node.js</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" alt="Tailwind" class="skill-logo"><span>Tailwind</span></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── ROW 02 (Moves Right) ── -->
+        <div class="skills-row-outer">
+          <div class="skills-track-container">
+            <div class="skills-marquee marquee-rtl">
+              <!-- Set 1 -->
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/mongodb/47A248" alt="MongoDB" class="skill-logo"><span>MongoDB</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/git/F05032" alt="Git" class="skill-logo"><span>Git</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/github/181717" alt="GitHub" class="skill-logo"><span>GitHub</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/figma/F24E1E" alt="Figma" class="skill-logo"><span>Figma</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/mysql/4479A1" alt="SQL" class="skill-logo"><span>SQL</span></div>
+
+              <!-- Set 2 (seamless repeat) -->
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/mongodb/47A248" alt="MongoDB" class="skill-logo"><span>MongoDB</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/git/F05032" alt="Git" class="skill-logo"><span>Git</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/github/181717" alt="GitHub" class="skill-logo"><span>GitHub</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/figma/F24E1E" alt="Figma" class="skill-logo"><span>Figma</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/mysql/4479A1" alt="SQL" class="skill-logo"><span>SQL</span></div>
+
+              <!-- Set 3 -->
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/mongodb/47A248" alt="MongoDB" class="skill-logo"><span>MongoDB</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/git/F05032" alt="Git" class="skill-logo"><span>Git</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/github/181717" alt="GitHub" class="skill-logo"><span>GitHub</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/figma/F24E1E" alt="Figma" class="skill-logo"><span>Figma</span></div>
+              <div class="skill-card"><img src="https://cdn.simpleicons.org/mysql/4479A1" alt="SQL" class="skill-logo"><span>SQL</span></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Organic Wave Cutout -->
+      <div class="skills-wave-bottom">
+        <svg viewBox="0 0 1440 80" preserveAspectRatio="none" fill="none">
+          <path d="M 0,80 L 1440,80 L 1440,45 C 1300,10 1180,70 1040,35 C 900,10 780,75 620,50 C 460,30 360,75 200,25 C 100,0 40,55 0,35 Z" fill="#FFFBF3"/>
+        </svg>
+      </div>
+    </section>
+
+
+    <!-- ================= PROJECTS SECTION ("THINGS I'VE BUILT." - EXACT FIGMA MATCH) ================= -->
+    <section class="projects-section" id="work">
+      <div class="section-container">
+        
+        <!-- Projects Section Header -->
+        <div class="projects-header">
+          <div class="projects-title-area">
+            <!-- Top Left Ray Doodles -->
+            <div class="projects-header-rays">
+              <span></span><span></span>
+            </div>
+            
+            <h2 class="section-heading">
+              THINGS I'VE BUILT. 
+              <span class="projects-title-star">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none">
+                  <path d="M12 2 L14 9 L21 12 L14 15 L12 22 L10 15 L3 12 L10 9 Z" stroke="#6D241F" stroke-width="1.8" fill="none"/>
+                </svg>
+              </span>
+            </h2>
+
+            <div class="handwritten-subtitle-box">
+              <p class="handwritten-subtitle">not just college projects. &mdash;</p>
+              <p class="handwritten-subtitle">real problems. questionable</p>
+              <p class="handwritten-subtitle">amounts of coffee, <span class="thoughtful-underline-wrap">thoughtful<svg class="thoughtful-underline-svg" viewBox="0 0 110 8" fill="none"><path d="M2 4 Q 55 7 108 3" stroke="#6D241F" stroke-width="2" stroke-linecap="round"/></svg></span></p>
+              <p class="handwritten-subtitle"><span class="thoughtful-underline-wrap">solutions.<svg class="thoughtful-underline-svg" viewBox="0 0 90 8" fill="none"><path d="M2 4 Q 45 7 88 3" stroke="#6D241F" stroke-width="2" stroke-linecap="round"/></svg></span></p>
+            </div>
+          </div>
+
+          <!-- Sticky Note: building > overthinking -->
+          <div class="sticky-note-wrapper">
+            <div class="sticky-note-doodle pink-sticky-project">
+              <div class="sticky-pin-top"></div>
+              <div class="sticky-smiley">ت</div>
+              <p class="sticky-text-line">building &gt;</p>
+              <p class="sticky-text-line">overthinking</p>
+              <div class="sticky-bottom-smiley">:)</div>
+            </div>
+            
+            <!-- Looping Arrow from Sticky Note -->
+            <div class="sticky-loop-arrow-wrap">
+              <svg class="sticky-loop-arrow-svg" viewBox="0 0 90 50" fill="none">
+                <path d="M5 10 C 35 15, 60 45, 75 30 C 85 20, 65 15, 55 25 C 50 30, 60 45, 80 40 L 72 34 M 80 40 L 76 46" stroke="#4A201A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <span class="sticky-sparkle-stars">✦ ✧</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projects Grid Layout -->
+        <div class="projects-grid">
+          
+          <!-- PROJECT 01: RAAH (Featured Large Card) -->
+          <article class="project-card project-raah" data-project="raah">
+            <div class="project-card-info">
+              <div class="project-num-row">
+                <span class="project-num">01</span>
+                <span class="project-num-line"></span>
+              </div>
+              
+              <h3 class="project-name">RAAH</h3>
+              <h4 class="project-tagline">Making Mumbai buses<br>move smarter.</h4>
+              
+              <div class="handwritten-card-note">
+                <span class="caveat-text">Because waiting 40 minutes for a bus isn't a <span class="note-underline-wrap">personality trait.<svg class="note-underline-svg" viewBox="0 0 120 6" fill="none"><path d="M2 3 Q 60 5 118 2" stroke="#6D241F" stroke-width="1.6" stroke-linecap="round"/></svg></span></span>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">UI/UX</span>
+                <span class="tag">FRONTEND</span>
+                <span class="tag">REAL-TIME</span>
+              </div>
+
+              <div class="project-action-row">
+                <button class="project-btn" onclick="openProjectModal('raah')">
+                  VIEW CASE STUDY <span class="arrow">&rarr;</span>
+                  <span class="btn-tiny-sparkle">✦</span>
+                </button>
+                <a href="https://raah-app.vercel.app" target="_blank" rel="noopener noreferrer" class="project-action-link" title="View Live Demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+                <a href="https://github.com/naazahmedi04" target="_blank" rel="noopener noreferrer" class="project-github-link" title="GitHub Repository" aria-label="View Raah on GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- RAAH Screenshot Preview -->
+            <div class="project-preview-frame screenshot-frame raah-preview-frame">
+              <img src="assets/raah_preview.jpg" alt="Raah - Mumbai Bus Transit Live Dashboard" class="project-screenshot" loading="lazy">
+            </div>
+          </article>
+
+          <!-- PROJECT 02: PANDO AI (Left Column Card) -->
+          <article class="project-card project-pando" data-project="pando">
+            <div class="project-card-info">
+              <div class="project-num-row">
+                <span class="project-num">02</span>
+                <span class="project-num-line"></span>
+              </div>
+
+              <h3 class="project-name">PANDO AI</h3>
+              <h4 class="project-tagline">Support, without<br>the awkwardness.</h4>
+              
+              <div class="handwritten-card-note">
+                <span class="caveat-text purple-note">Making support feel a little less clinical. ♡</span>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">UI/UX</span>
+                <span class="tag">AI</span>
+                <span class="tag">CHATBOT</span>
+              </div>
+
+              <div class="project-action-row">
+                <button class="project-btn" onclick="openProjectModal('pando')">
+                  EXPLORE PROJECT <span class="arrow">&rarr;</span>
+                  <span class="btn-tiny-sparkle">✦</span>
+                </button>
+                <a href="https://pandoai-app.vercel.app" target="_blank" rel="noopener noreferrer" class="project-action-link" title="View Live Demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+                <a href="https://github.com/naazahmedi04" target="_blank" rel="noopener noreferrer" class="project-github-link" title="GitHub Repository" aria-label="View PandoAI on GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- PANDO AI Screenshot Preview -->
+            <div class="project-preview-frame screenshot-frame pando-preview-frame">
+              <img src="assets/pando_preview.png" alt="PandoAI - Mental Health Support App" class="project-screenshot" loading="lazy">
+            </div>
+          </article>
+
+          <!-- PROJECT 03: KHETIVETI (Right Column Card) -->
+          <article class="project-card project-khetiveti" data-project="khetiveti">
+            <div class="project-card-info">
+              <div class="project-num-row">
+                <span class="project-num">03</span>
+                <span class="project-num-line"></span>
+              </div>
+
+              <h3 class="project-name">KHETIVETI</h3>
+              <h4 class="project-tagline">Technology that speaks<br>the farmer's language.</h4>
+              
+              <div class="handwritten-card-note">
+                <span class="caveat-text green-note">Good technology should meet people where they are.</span>
+                <span class="leaf-sprout-doodle">🌿</span>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">UI/UX</span>
+                <span class="tag">WEB</span>
+                <span class="tag">RESEARCH</span>
+              </div>
+
+              <div class="project-action-row">
+                <button class="project-btn" onclick="openProjectModal('khetiveti')">
+                  EXPLORE PROJECT <span class="arrow">&rarr;</span>
+                  <span class="btn-tiny-sparkle">✦</span>
+                </button>
+                <a href="https://github.com/naazahmedi04" target="_blank" rel="noopener noreferrer" class="project-github-link" title="GitHub Repository" aria-label="View Khetiveti on GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- KHETIVETI Mobile Phone Screenshot Preview -->
+            <div class="project-preview-frame screenshot-frame kheti-preview-frame">
+              <img src="assets/khetiveti_preview.png" alt="Khetiveti - Farmer Advisory Mobile Platform" class="project-screenshot khetiveti-screenshot" loading="lazy">
+            </div>
+          </article>
+
+          <!-- PROJECT 04: GUARDRAIL (Wide Banner Card at Bottom) -->
+          <article class="project-card project-guardrail" data-project="guardrail">
+            <div class="project-card-info">
+              <div class="project-num-row">
+                <span class="project-num">04</span>
+                <span class="project-num-line"></span>
+              </div>
+
+              <h3 class="project-name">GUARDRAIL</h3>
+              <h4 class="project-tagline">Making digital spaces safer,<br>one interaction at a time.</h4>
+              
+              <div class="handwritten-card-note">
+                <span class="caveat-text red-note">Because "I didn't know it was a scam" isn't a <span class="note-underline-wrap">security strategy.<svg class="note-underline-svg" viewBox="0 0 115 6" fill="none"><path d="M2 3 Q 58 5 113 2" stroke="#6D241F" stroke-width="1.6" stroke-linecap="round"/></svg></span></span>
+                <span class="lock-doodle-icon">🔒</span>
+              </div>
+
+              <div class="project-tags">
+                <span class="tag">UI/UX</span>
+                <span class="tag">CYBERSECURITY</span>
+                <span class="tag">PRODUCT</span>
+              </div>
+
+              <div class="project-action-row">
+                <button class="project-btn" onclick="openProjectModal('guardrail')">
+                  EXPLORE PROJECT <span class="arrow">&rarr;</span>
+                  <span class="btn-tiny-sparkle">✦</span>
+                </button>
+                <a href="https://guardrail-app.vercel.app" target="_blank" rel="noopener noreferrer" class="project-action-link" title="View Live Demo">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                </a>
+                <a href="https://github.com/naazahmedi04" target="_blank" rel="noopener noreferrer" class="project-github-link" title="GitHub Repository" aria-label="View Guardrail on GitHub">
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- GUARDRAIL Screenshot Preview -->
+            <div class="project-preview-frame screenshot-frame guardrail-preview-frame">
+              <img src="assets/guardrail_preview.png" alt="Guardrail - Cybersecurity Platform Interface" class="project-screenshot" loading="lazy">
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Micro-Interaction Bar at bottom of projects -->
+        <div class="projects-footer-doodles">
+          
+          <!-- Left: Coffee Mug + Text -->
+          <div class="footer-doodle-group doodle-left-coffee">
+            <div class="coffee-cup-doodle">
+              <svg viewBox="0 0 45 40" width="36" height="32" fill="none">
+                <!-- Steam lines -->
+                <path d="M12 8 Q 14 4 12 1 M20 8 Q 22 4 20 1 M28 8 Q 30 4 28 1" stroke="#6D241F" stroke-width="1.6" stroke-linecap="round"/>
+                <!-- Cup Body -->
+                <path d="M6 10 L34 10 L31 34 C31 37, 29 39, 25 39 L15 39 C11 39, 9 37, 9 34 Z" stroke="#6D241F" stroke-width="2" fill="#FFFBF3"/>
+                <!-- Handle -->
+                <path d="M34 14 C38 14, 40 17, 40 21 C40 25, 37 27, 33 27" stroke="#6D241F" stroke-width="2" fill="none"/>
+                <!-- Heart on cup -->
+                <path d="M17 21 C17 19, 20 18, 20 20 C20 18, 23 19, 23 21 C23 23, 20 25, 20 26 C20 25, 17 23, 17 21 Z" fill="#6D241F"/>
+              </svg>
+            </div>
+            <span class="footer-arrow-left">&larr;</span>
+            <div class="cat-notes">
+              <span class="handwritten-small">More ideas.</span>
+              <span class="handwritten-small">More coffee.</span>
+              <span class="handwritten-small">More building.</span>
+            </div>
+          </div>
+
+          <!-- Center: Build together + Button -->
+          <div class="footer-doodle-group doodle-center-talk">
+            <div class="wavy-arrow-left">
+              <svg viewBox="0 0 60 20" width="45" height="15" fill="none">
+                <path d="M5 10 C 20 3, 35 17, 55 10 L 48 5 M 55 10 L 48 15" stroke="#6D241F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="talk-center-column">
+              <span class="handwritten-small">Want to build something together?</span>
+              <a href="#contact" class="doodle-talk-btn">LET'S TALK &rarr;</a>
+            </div>
+          </div>
+
+          <!-- Right: Cat Doodle + Always curious -->
+          <div class="footer-doodle-group doodle-right-cat">
+            <div class="cat-face-icon">
+              <svg viewBox="0 0 50 45" width="38" height="34" fill="none">
+                <!-- Cat head with ears -->
+                <path d="M8 38 C6 28 6 18 10 10 L18 18 C22 16 28 16 32 18 L40 10 C44 18 44 28 42 38 C32 42 18 42 8 38 Z" stroke="#6D241F" stroke-width="2" fill="#FFFBF3"/>
+                <!-- Eyes -->
+                <circle cx="18" cy="24" r="2.2" fill="#6D241F"/>
+                <circle cx="32" cy="24" r="2.2" fill="#6D241F"/>
+                <!-- Nose & Mouth -->
+                <path d="M25 28 L23 31 Q 25 33 27 31 Z" fill="#6D241F"/>
+                <!-- Whiskers -->
+                <path d="M12 26 L4 25 M12 29 L5 30 M38 26 L46 25 M38 29 L45 30" stroke="#6D241F" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <span class="footer-arrow-left">&larr;</span>
+            <div class="cat-sign-notes">
+              <span class="handwritten-small">Always curious,</span>
+              <span class="handwritten-small">Naaz :) <span class="cat-sparkle">✦</span></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= HOW I THINK SECTION ================= -->
+    <section class="how-i-think-section" id="about">
+      <div class="section-container">
+        <div class="think-banner-card">
+          <div class="think-text-content">
+            <h2 class="think-title">HOW I THINK</h2>
+            
+            <div class="think-quote-group">
+              <p class="think-lead">
+                I'm curious by default, always asking <mark class="quote-highlight">&ldquo;what if we tried this?&rdquo;</mark>
+              </p>
+              <p class="think-body">
+                I turn messy problems into simple ideas, thoughtful designs and things worth building.
+              </p>
+            </div>
+
+            <!-- Doodled underline -->
+            <svg class="think-doodle-underline" viewBox="0 0 320 20">
+              <path d="M5 12 Q 80 5 160 14 T 310 10" stroke="#6D241F" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+            </svg>
+          </div>
+
+          <div class="think-avatar-wrapper">
+            <img src="assets/think_avatar.jpg" alt="Naaz thinking thoughtfully" class="think-avatar-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SIDE QUESTS (EXPERIMENTS) SECTION ================= -->
+    <section class="experiments-section" id="experiments">
+      <div class="section-container side-quests-container">
+        
+        <!-- Header & Intro Area -->
+        <div class="side-quests-header-wrap">
+          
+          <!-- Left Intro Column -->
+          <div class="side-quests-intro">
+            <div class="experiments-tag-badge">
+              <span class="doodle-rays">\\</span>
+              <span class="tag-text">EXPERIMENTS</span>
+              <span class="doodle-rays">///</span>
+            </div>
+
+            <h2 class="section-heading side-quests-heading">
+              THE SIDE<br>QUESTS. <span class="title-star">✦</span>
+            </h2>
+
+            <p class="handwritten-subtitle side-quests-sub">
+              Random ideas, late night thoughts<br>
+              and concepts I <span class="just-explore-wrap">just had to explore.<svg class="explore-underline-svg" viewBox="0 0 140 10" fill="none"><path d="M2 6 Q 70 9 138 4" stroke="#9B2C2C" stroke-width="2.5" stroke-linecap="round"/></svg></span> ♡
+            </p>
+
+            <!-- Pink Torn Sticky Note -->
+            <div class="side-quests-pink-note">
+              <div class="note-pin"></div>
+              <p class="pink-note-text">many more<br>on the way... ♡</p>
+            </div>
+
+            <!-- Arrow pointing to Card 1 -->
+            <div class="doodle-arrow-to-card">
+              <span class="doodle-text-small">started with<br>a simple<br>problem. ☺</span>
+              <svg class="curved-arrow-svg" viewBox="0 0 50 40" fill="none">
+                <path d="M8 8 C 25 8, 42 16, 38 34 L 30 26 M 38 34 L 44 26" stroke="#6D241F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+          </div>
+
+          <!-- Right Deck Column with Cards and Doodles -->
+          <div class="side-quests-deck-area">
+            
+            <!-- Top Production Doodle -->
+            <div class="doodle-top-production">
+              <span class="doodle-text-small">not everything<br>makes it to<br>production.</span>
+              <svg class="arrow-down-svg" viewBox="0 0 45 35" fill="none">
+                <path d="M5 6 C 22 6, 36 12, 32 28 L 24 22 M 32 28 L 36 20" stroke="#6D241F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+
+            <!-- The 3 Binder/Paper Cards Deck -->
+            <div class="binder-cards-deck">
+              
+              <!-- CARD 01: STUDYFLEX (Lilac Notepad Sheet) -->
+              <article class="binder-card card-studyflex" onclick="openExperimentModal('studyflex')">
+                <!-- Washi Tape -->
+                <div class="washi-tape washi-purple"></div>
+                <!-- Silver Paperclip -->
+                <div class="silver-paperclip clip-right">
+                  <svg viewBox="0 0 16 36" fill="none" class="paperclip-svg">
+                    <path d="M4 10 L4 26 C4 30, 12 30, 12 26 L12 6 C12 2, 2 2, 2 6 L2 28 C2 34, 14 34, 14 28 L14 12" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+
+                <div class="binder-card-header">
+                  <span class="card-num-bubble">01</span>
+                  <h3 class="binder-card-title">STUDYFLEX</h3>
+                  <p class="binder-card-tagline caveat-font">What if studying felt like a scroll?</p>
+                  <p class="binder-card-desc">A scrolling study experience designed to make learning feel more engaging, visual, and less like staring at endless notes.</p>
+                </div>
+
+                <!-- StudyFlex Real Screenshot Mockup Frame -->
+                <div class="mockup-screenshot-frame studyflex-frame">
+                  <img src="assets/studyflex_preview.png" alt="StudyFlex - Scroll-based study experience" class="sidequest-screenshot studyflex-img" loading="lazy">
+                </div>
+
+                <div class="binder-card-footer">
+                  <span class="binder-tags">UI/UX · INTERACTION DESIGN · APP DESIGN</span>
+                  <button class="binder-explore-btn" type="button" onclick="event.stopPropagation(); openExperimentModal('studyflex')">EXPLORE ↗</button>
+                </div>
+              </article>
+
+              <!-- CARD 02: SUÜKR (Warm Manila Folder Website) -->
+              <article class="binder-card card-suukr" onclick="openExperimentModal('suukr')">
+                <!-- Washi Tape -->
+                <div class="washi-tape washi-pink"></div>
+                <!-- Silver Paperclip -->
+                <div class="silver-paperclip clip-right">
+                  <svg viewBox="0 0 16 36" fill="none" class="paperclip-svg">
+                    <path d="M4 10 L4 26 C4 30, 12 30, 12 26 L12 6 C12 2, 2 2, 2 6 L2 28 C2 34, 14 34, 14 28 L14 12" stroke="#94A3B8" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </div>
+
+                <div class="binder-card-header">
+                  <span class="card-num-bubble red-bubble">02</span>
+                  <h3 class="binder-card-title">SUÜKR</h3>
+                  <p class="binder-card-tagline caveat-font">Good coffee deserved a good website. ♡</p>
+                  <p class="binder-card-desc">A café website created for an Australian café, blending playful visuals with a simple, easy-to-browse experience.</p>
+                </div>
+
+                <!-- Suukr Real Screenshot Mockup Frame -->
+                <div class="mockup-screenshot-frame suukr-frame">
+                  <img src="assets/suukr_preview.jpg" alt="Suukr - Australian Cafe & Desserts Website" class="sidequest-screenshot suukr-img" loading="lazy">
+                </div>
+
+                <div class="binder-card-footer">
+                  <span class="binder-tags">WEB DESIGN · UI/UX · DEVELOPMENT</span>
+                  <div class="binder-action-group">
+                    <a href="https://suukr.au/" target="_blank" rel="noopener noreferrer" class="binder-site-link" onclick="event.stopPropagation()" title="Visit Live Website">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Site
+                    </a>
+                    <button class="binder-explore-btn" type="button" onclick="event.stopPropagation(); openExperimentModal('suukr')">EXPLORE ↗</button>
+                  </div>
+                </div>
+              </article>
+
+              <!-- CARD 03: POWOW (Perforated Ring-Binder Sheet) -->
+              <article class="binder-card card-powow" onclick="openExperimentModal('powow')">
+                <!-- Ring-binder Hole Punches on Left Edge -->
+                <div class="binder-rings-strip">
+                  <span class="binder-hole"></span>
+                  <span class="binder-hole"></span>
+                  <span class="binder-hole"></span>
+                  <span class="binder-hole"></span>
+                  <span class="binder-hole"></span>
+                  <span class="binder-hole"></span>
+                </div>
+
+                <!-- Washi Tape -->
+                <div class="washi-tape washi-blue"></div>
+
+                <div class="binder-card-header">
+                  <span class="card-num-bubble blue-bubble">03</span>
+                  <h3 class="binder-card-title">POWOW</h3>
+                  <p class="binder-card-tagline caveat-font">Find a friend. Give them a home. ☺</p>
+                  <p class="binder-card-desc">A pet adoption portal designed to help people discover, connect with, and adopt pets looking for their forever homes.</p>
+                </div>
+
+                <!-- Powow Real Screenshot Mockup Frame -->
+                <div class="mockup-screenshot-frame powow-frame">
+                  <img src="assets/powow_preview.png" alt="Powow - Pet Adoption Portal" class="sidequest-screenshot powow-img" loading="lazy">
+                </div>
+
+                <div class="binder-card-footer">
+                  <span class="binder-tags">UI/UX · PRODUCT DESIGN · WEB DESIGN</span>
+                  <button class="binder-explore-btn" type="button" onclick="event.stopPropagation(); openExperimentModal('powow')">EXPLORE ↗</button>
+                </div>
+              </article>
+
+            </div>
+
+            <!-- Far Right Doodle Note -->
+            <div class="doodle-far-right">
+              <span class="doodle-text-small">this one<br>might go<br>somewhere.</span>
+              <div class="plane-arrow-group">
+                <span class="paper-plane-icon">✈️</span>
+                <svg class="swirl-arrow-svg" viewBox="0 0 35 30" fill="none">
+                  <path d="M5 24 C 18 24, 26 16, 22 6 L 15 10 M 22 6 L 26 14" stroke="#6D241F" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= RECEIPTS SECTION (MAROON #6D241F) ================= -->
+    <section class="receipts-section" id="receipts">
+      <!-- Top Organic Wave Cutout -->
+      <div class="receipts-wave-top">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none" fill="none">
+          <path d="M 0,0 L 1440,0 L 1440,40 C 1300,90 1180,10 1020,35 C 860,60 760,95 620,25 C 480,-5 360,85 200,50 C 100,25 40,75 0,45 Z" fill="#FFFBF3"/>
+        </svg>
+      </div>
+
+      <div class="receipts-content">
+        
+        <!-- Header -->
+        <div class="receipts-header">
+          <div class="receipts-title-left">
+            <span class="receipts-sparkle-star">✦</span>
+            <div class="receipts-title-row">
+              <h2 class="receipts-main-title">RECEIPTS.</h2>
+              <div class="handwritten-prove-box">
+                <span class="cursive-handwritten-note">okay, but can I prove it?</span>
+                <svg viewBox="0 0 140 12" width="130" height="10">
+                  <path d="M5 8 Q 70 2 135 6" stroke="#EAC9D0" stroke-width="2" fill="none"/>
+                </svg>
+              </div>
+            </div>
+            <p class="receipts-subtitle">Things I've learned, built, competed in, and occasionally won. ☕</p>
+          </div>
+
+          <!-- Sticky Note: learning > building > growing -->
+          <div class="receipts-sticky-wrapper">
+            <div class="washi-tape-brown"></div>
+            <div class="sticky-note-doodle receipts-sticky">
+              <p>learning<br>&gt; building<br>&gt; growing ♡</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 Columns with Vertical Center Divider -->
+        <div class="receipts-columns-grid">
+          
+          <!-- COLUMN 1: CERTIFICATIONS -->
+          <div class="receipts-col certs-col">
+            <div class="col-heading-box">
+              <div class="col-icon"><i class="fa-solid fa-award"></i></div>
+              <div>
+                <h3 class="col-title">CERTIFICATIONS</h3>
+                <p class="col-sub caveat-font">Technical and professional certifications</p>
+              </div>
+            </div>
+
+            <!-- Collecting Knowledge Placeholder Card -->
+            <div class="certifications-collecting-card">
+              <h4 class="collecting-headline">Currently collecting knowledge.</h4>
+              <p class="collecting-subline caveat-font">Certificates coming soon. ♡</p>
+              
+              <div class="collecting-progress-indicator">
+                <span class="collecting-tag-pill"><i class="fa-solid fa-spinner fa-spin"></i> In Progress</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- COLUMN 2: ACHIEVEMENTS -->
+          <div class="receipts-col achievements-col">
+            <div class="col-heading-box">
+              <div class="col-icon"><i class="fa-solid fa-trophy"></i></div>
+              <div>
+                <h3 class="col-title">ACHIEVEMENTS</h3>
+                <p class="col-sub caveat-font">Competitions, hackathons, research, publications, or awards</p>
+              </div>
+            </div>
+
+            <!-- Vertical Timeline Track -->
+            <div class="achievements-timeline-layout">
+              <div class="timeline-year-sidebar">
+                <span class="timeline-year-pill">2025</span>
+                <div class="timeline-vertical-line">
+                  <span class="timeline-dot dot-1"></span>
+                  <span class="timeline-dot dot-2"></span>
+                  <span class="timeline-dot dot-3"></span>
+                </div>
+              </div>
+
+              <div class="timeline-cards-column">
+                
+                <!-- 1. 2nd Runner Up -->
+                <div class="achievement-card">
+                  <div class="ach-icon-circle ach-gold">
+                    <i class="fa-solid fa-trophy"></i>
+                  </div>
+                  <div class="ach-text-content">
+                    <h4 class="ach-title">2nd Runner Up</h4>
+                    <span class="ach-event-label">In-house Hackathon</span>
+                  </div>
+                  <span class="ach-star-icon">☆</span>
+                </div>
+
+                <!-- 2. Top 5 Finalist -->
+                <div class="achievement-card">
+                  <div class="ach-icon-circle ach-purple">
+                    <i class="fa-solid fa-award"></i>
+                  </div>
+                  <div class="ach-text-content">
+                    <h4 class="ach-title">Top 5 Finalist</h4>
+                    <span class="ach-event-label">Demo Day</span>
+                    <p class="ach-desc">Presented project despite unexpected technical challenges.</p>
+                  </div>
+                  <span class="ach-star-icon">☆</span>
+                </div>
+
+                <!-- 3. Smart India Hackathon '25 -->
+                <div class="achievement-card">
+                  <div class="ach-icon-circle ach-green">
+                    <i class="fa-solid fa-bullseye"></i>
+                  </div>
+                  <div class="ach-text-content">
+                    <h4 class="ach-title">Smart India Hackathon '25</h4>
+                    <span class="ach-event-label">National Level</span>
+                    <p class="ach-desc">Participated at the national level and built a solution for real-world impact.</p>
+                  </div>
+                  <span class="ach-star-icon">☆</span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Bottom Organic Wave Cutout -->
+      <div class="receipts-wave-bottom">
+        <svg viewBox="0 0 1440 100" preserveAspectRatio="none" fill="none">
+          <path d="M 0,100 L 1440,100 L 1440,45 C 1320,15 1200,85 1040,40 C 880,0 780,80 640,35 C 500,-10 380,75 220,40 C 120,20 40,65 0,35 Z" fill="#FFFBF3"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION ================= -->
+    <section class="contact-section" id="contact">
+      <div class="contact-inner">
+
+        <!-- Sparkle deco top-left -->
+        <span class="ct-sparkle ct-sparkle-tl">✦</span>
+
+        <div class="contact-grid">
+
+          <!-- ── LEFT COLUMN ── -->
+          <div class="contact-left">
+
+            <!-- Big headline -->
+            <h2 class="ct-headline">
+              GOT AN IDEA?<br>
+              LET'S MAKE <span class="ct-pink-real">IT REAL.</span>
+            </h2>
+
+            <!-- Subtext -->
+            <p class="ct-sub">
+              I'm always up for good problems, interesting ideas,<br>
+              and coffee-fueled conversations. ☕
+            </p>
+
+            <!-- CTA row: button + handwritten annotation -->
+            <div class="ct-cta-row">
+              <a href="mailto:naazahmedi04@gmail.com" class="ct-talk-btn">
+                LET'S TALK ↗
+              </a>
+              <div class="ct-annotation">
+                <!-- Curved arrow SVG -->
+                <svg class="ct-arrow-svg" viewBox="0 0 80 38" fill="none">
+                  <path d="M72 4 C 60 4, 10 10, 4 30" stroke="#6D241F" stroke-width="1.6" stroke-dasharray="4 3" stroke-linecap="round"/>
+                  <path d="M4 30 L 10 22 M4 30 L 12 32" stroke="#6D241F" stroke-width="1.6" stroke-linecap="round"/>
+                </svg>
+                <span class="ct-annotation-text">I reply (usually)<br>faster than email! ✉</span>
+              </div>
+            </div>
+
+            <!-- Social links: flat icon + label row with dots -->
+            <div class="ct-social-row">
+              <a href="mailto:naazahmedi04@gmail.com" class="ct-social-link">
+                <i class="fa-regular fa-envelope"></i> EMAIL
+              </a>
+              <span class="ct-dot">•</span>
+              <a href="https://linkedin.com" target="_blank" rel="noopener" class="ct-social-link">
+                <i class="fa-brands fa-linkedin-in"></i> LINKEDIN
+              </a>
+              <span class="ct-dot">•</span>
+              <a href="https://github.com/naazahmedi04" target="_blank" rel="noopener" class="ct-social-link">
+                <i class="fa-brands fa-github"></i> GITHUB
+              </a>
+              <span class="ct-dot">•</span>
+              <a href="#" class="ct-social-link">
+                <i class="fa-regular fa-file-lines"></i> RESUME
+              </a>
+            </div>
+
+            <!-- Tiny bottom sparkle -->
+            <span class="ct-sparkle ct-sparkle-bl">✦</span>
+
+            <!-- Copyright bar -->
+            <p class="ct-copyright">
+              © 2024 Naaz Ahmedi. Designer · Developer · Professional Overthinker ☕
+            </p>
+
+          </div><!-- /contact-left -->
+
+          <!-- ── RIGHT COLUMN: Avatar ── -->
+          <div class="contact-right">
+            <!-- Sparkle deco top-right -->
+            <span class="ct-sparkle ct-sparkle-tr1">✦</span>
+            <span class="ct-sparkle ct-sparkle-tr2">✧</span>
+            <span class="ct-sparkle ct-sparkle-tr3">✦</span>
+
+            <img
+              src="assets/contact_avatar_nobg.png"
+              alt="Naaz Ahmedi thinking at desk"
+              class="ct-avatar-img"
+              loading="lazy"
+            >
+          </div><!-- /contact-right -->
+
+        </div><!-- /contact-grid -->
+      </div><!-- /contact-inner -->
+    </section>
+
+  </main>
+
+  <!-- ================= DYNAMIC MODAL ================= -->
+  <div class="modal-backdrop" id="projectModal" onclick="if(event.target === this) closeProjectModal()">
+    <div class="modal-card">
+      <button class="modal-close-btn" onclick="closeProjectModal()" aria-label="Close modal">&times;</button>
+      <div id="modalProjectContent">
+        <!-- Injected dynamically via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
